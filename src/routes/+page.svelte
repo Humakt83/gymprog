@@ -2,12 +2,13 @@
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 	import gymprogs from '$lib/resources/gymprogs.json';
+	import Program from './Program.svelte';
 
-	const currentGymProg = gymprogs.find(prog => prog.current)?.program;
+	const currentGymProg = gymprogs.find(prog => prog.current);
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Voimassa</title>
 	<meta name="description" content="Personal gym programs app" />
 </svelte:head>
 
@@ -19,18 +20,11 @@
 				<img src={welcome_fallback} alt="Welcome" />
 			</picture>
 		</span>
+
+		Voimissaan oleva ohjelma
 	</h1>
 
-	<div>
-		{#each currentGymProg as day, index}
-			<h2>Day {++index}</h2>
-			<ol>
-				{#each day.moves as move}
-					<li>{move.name} {move.times}</li>
-				{/each}
-			</ol>
-		{/each}
-	</div>
+	<Program program={currentGymProg?.program}></Program>
 
 </section>
 
