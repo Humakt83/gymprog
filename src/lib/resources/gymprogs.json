@@ -1,6 +1,7 @@
 [
     {
         "current": true,
+        "periodStart": "01.01.2024",
         "program": [
             {   
                 "moves": [
@@ -62,8 +63,8 @@
         ]
     },
     {
-        "periodStart": "2022-05-01",
-        "periodEnd": "2023-12-31",
+        "periodStart": "1.5.2022",
+        "periodEnd": "31.12.2023",
         "program": [
             {
                 "moves": [
@@ -104,8 +105,8 @@
         ]
     },
     {
-        "periodStart": "2020-11-30",
-        "periodEnd": "2022-04-30",
+        "periodStart": "30.11.2020",
+        "periodEnd": "30.4.2022",
         "program": [            {   
             "moves": [
                 {"name": "Kyykky", "times": 4},

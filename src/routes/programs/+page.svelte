@@ -1,6 +1,4 @@
 <script>
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
 	import gymprogs from '$lib/resources/gymprogs.json';
     import Program from '../Program.svelte';
 
@@ -19,7 +17,7 @@
 
 <section>
 	<h1>
-        Vanhat ohjelmat
+        🏃 Vanhat ohjelmat 🏃
 	</h1>
 
 	<div>
