@@ -1,0 +1,74 @@
+[
+    {
+        "current": true,
+        "program": [
+            {   
+                "moves": [
+                    {"name": "Kyykky", "times": 4},
+                    {"name": "Pohkeet", "times": 4},
+                    {"name": "Maastaveto", "times": 4},
+
+                    {"name": "Ojentajat taljalla", "times": 4},
+                    {"name": "Hauikset taljalla", "times": 4},
+                    {"name": "Hauikset taljalla vastaotteella", "times": 1},
+                    {"name": "Naamaveto (face pull)", "times": 2},
+                    {"name": "Ylätalja eteen", "times": 2},
+
+                    {"name": "Vipunosto käsipainoilla sivulle", "times": 2},
+                    {"name": "Vipunosto käsipainoilla etee", "times": 2},
+
+                    {"name": "Vatsarutistus", "times": 4},
+                    {"name": "Vatsa/kylki kurkota pakaroita", "times": 4},
+                    {"name": "Staattinen vatsa makuulta", "times": 4}
+
+                ]
+            },
+            {
+                "moves": [
+                    {"name": "Jalkaprässi", "times": 4},
+                    {"name": "Takareidet", "times": 3},
+
+                    {"name": "Pec deck", "times": 3},
+
+                    {"name": "Vinopenkki käsipainoilla", "times": 3},
+                    {"name": "Yliveto makuulta", "times": 3},
+                    {"name": "Hauikset käsipainoilla", "times": 3},
+
+                    {"name": "Pystysoutu x 2", "times": 2},
+                    {"name": "Pystypunnerus käsipainoilla", "times": 3},
+
+                    {"name": "Jalka ylös vatsat maaten", "times": 4},
+                    {"name": "Venäläinen kierto", "times": 2}
+                ]
+            },
+            {
+                "moves": [
+                    {"name": "Häkkikyykky", "times": 3},
+                    {"name": "Lähentäjät", "times": 2},
+                    {"name": "Loitontajat", "times": 2},
+
+                    {"name": "Ranskalainen punnerrus", "times": 2},
+                    {"name": "Dippi", "times": 3},
+                    {"name": "Vasara/hammeri", "times": 3},
+
+                    {"name": "Ojentaja käsipainolla seisten per käsi (pienellä nojalla)", "times": 2},
+                    {"name": "Selät", "times": 3},
+                    {"name": "Ranneliike", "times": 2},
+
+                    {"name": "Selällään polkeminen", "times": 3},
+                    {"name": "Vuorikiipeilijä", "times": 3}                    
+                ]
+            }
+        ]
+    },
+    {
+        "periodStart": "2022-05-01",
+        "periodEnd": "2023-12-31",
+        "program": []
+    },
+    {
+        "periodStart": "2020-11-30",
+        "periodEnd": "2022-04-30",
+        "program": []
+    }
+]
