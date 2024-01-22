@@ -5,7 +5,7 @@
 </script>
 
 <header>
-	<div class="corner">
+	<div class="corner corner--left">
 		<a href="https://kit.svelte.dev">
 			<img src={logo} alt="SvelteKit" />
 		</a>
@@ -31,7 +31,7 @@
 		</svg>
 	</nav>
 
-	<div class="corner">
+	<div class="corner corner--right">
 		<a href="https://github.com/Humakt83/gymprog">
 			<img src={github} alt="GitHub" />
 		</a>
@@ -47,6 +47,16 @@
 	.corner {
 		width: 3em;
 		height: 3em;
+		background-color: aliceblue;
+		
+	}
+
+	.corner--left {
+		border-radius: 0 55%;
+	}
+
+	.corner--right {
+		border-radius: 55% 0;
 	}
 
 	.corner a {
@@ -66,7 +76,7 @@
 	nav {
 		display: flex;
 		justify-content: center;
-		--background: rgba(255, 255, 255, 0.7);
+		--background: aliceblue;
 	}
 
 	svg {
@@ -98,7 +108,7 @@
 	}
 
 	li[aria-current='page']::before {
-		--size: 6px;
+		--size: 9px;
 		content: '';
 		width: 0;
 		height: 0;
@@ -106,7 +116,7 @@
 		top: 0;
 		left: calc(50% - var(--size));
 		border: var(--size) solid transparent;
-		border-top: var(--size) solid var(--color-theme-1);
+		border-top: var(--size) solid var(--color-theme-2);
 	}
 
 	nav a {
