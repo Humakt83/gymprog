@@ -7,7 +7,7 @@
 	--color-bg-0: rgb(20, 20, 20);
 	--color-bg-1: hsl(209, 56%, 86%);
 	--color-bg-2: hsl(46, 13%, 20%);
-	--color-theme-1: #996644;
+	--color-theme-1: #885533;
 	--color-theme-2: #4075a6;
 	--color-text: rgba(40, 40, 40, 0.9);
 	--column-width: 42rem;
@@ -97,10 +97,21 @@ input,
 button {
 	font-size: inherit;
 	font-family: inherit;
+	background-color: var(--color-theme-2);
+	color: var(--color-bg-1);
+	border-radius: 8%;
+	box-shadow: none;
+	font-weight: 600;
+	padding: 0.2rem 0.4rem;
+	border: 2px solid var(--color-bg-2);	
 }
 
 button:focus:not(:focus-visible) {
 	outline: none;
+}
+
+button:focus, button:hover {
+	background-color: var(--color-bg-2);
 }
 
 @media (min-width: 720px) {
