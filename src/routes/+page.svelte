@@ -12,7 +12,9 @@
 
 <section>
 	<h1>
-		🔩💪🏻 Voimissaan oleva ohjelma 💪🏻🔩
+		<div class="dumbbell dumbbell--left">🔩</div>
+		<div class="hand hand--left">💪🏻</div> Voimissaan oleva ohjelma 
+		<div class="hand hand--right">💪🏻</div><div class="dumbbell">🔩</div>
 	</h1>
 
 	<p>Alkaen -> {currentGymProg?.periodStart}</p>
@@ -30,6 +32,58 @@
 	}
 
 	h1 {
-		width: 100%;
+		position: relative;
+	}
+
+	@keyframes raise {
+		from {
+			padding-top: 0;
+		}
+		to {
+			padding-top: 0.7rem;
+		}
+	}
+
+	@keyframes pump {
+		from {
+			transform: scale(-1, 1) rotate(45deg);
+		}
+		to {
+			transform: scale(-1, 1) rotate(0);
+		}
+	}
+
+	@keyframes pump--left {
+		from {
+			transform: rotate(45deg);
+		}
+		to {
+			transform: rotate(0);
+		}
+	}
+
+	.hand {
+		display: inline-block;
+	}
+
+	.hand--right {
+		display: inline-block;
+		transform: scale(-1, 1);
+		animation: 3s infinite alternate pump;		
+	}
+
+	.hand--left {
+		transform: none;
+		animation: 3s infinite alternate pump--left;		
+	}
+
+	.dumbbell {
+		position: absolute;
+		animation: 3s infinite alternate raise;	
+		display: inline-block;
+	}
+
+	.dumbbell--left {
+		left: -38px;
 	}
 </style>
