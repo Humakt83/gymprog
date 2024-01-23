@@ -13,10 +13,10 @@
                     {"name": "Hauikset taljalla", "times": 4},
                     {"name": "Hauikset taljalla vastaotteella", "times": 1},
                     {"name": "Naamaveto (face pull)", "times": 2},
-                    {"name": "Ylätalja eteen", "times": 2},
+                    {"name": "Yliveto makuulta", "times": 3},
 
                     {"name": "Vipunosto käsipainoilla sivulle", "times": 2},
-                    {"name": "Vipunosto käsipainoilla etee", "times": 2},
+                    {"name": "Vipunosto käsipainoilla eteen", "times": 2},
 
                     {"name": "Vatsarutistus", "times": 4},
                     {"name": "Vatsa/kylki kurkota pakaroita", "times": 4},
@@ -31,8 +31,8 @@
 
                     {"name": "Pec deck", "times": 3},
 
-                    {"name": "Vinopenkki käsipainoilla", "times": 3},
-                    {"name": "Yliveto makuulta", "times": 3},
+                    {"name": "Vinopenkki käsipainoilla", "times": 3},                   
+                    {"name": "Ylätalja eteen", "times": 2},
                     {"name": "Hauikset käsipainoilla", "times": 3},
 
                     {"name": "Pystysoutu x 2", "times": 2},
@@ -52,7 +52,7 @@
                     {"name": "Dippi", "times": 3},
                     {"name": "Vasara/hammeri", "times": 3},
 
-                    {"name": "Ojentaja käsipainolla seisten per käsi (pienellä nojalla)", "times": 2},
+                    {"name": "Ranskalainen punnerrus käsipainolla seisten (pienellä nojalla)", "times": 2},
                     {"name": "Selät", "times": 3},
                     {"name": "Ranneliike", "times": 2},
 
@@ -68,38 +68,58 @@
         "program": [
             {
                 "moves": [
-                    {"name": "Jalkaprässi", "times": 4},
-                    {"name": "Takareidet", "times": 3},
+                    {"name": "Vipunosto käsipainoilla sivulle", "times": 6},
+                    {"name": "Pystypunnerus käsipainoilla istuen", "times": 6},
 
-                    {"name": "Pec deck", "times": 3},
-
-                    {"name": "Vinopenkki käsipainoilla", "times": 3},
-                    {"name": "Yliveto makuulta", "times": 3},
-                    {"name": "Hauikset käsipainoilla", "times": 3},
-
-                    {"name": "Pystysoutu x 2", "times": 2},
-                    {"name": "Pystypunnerus käsipainoilla", "times": 3},
-
-                    {"name": "Jalka ylös vatsat maaten", "times": 4},
-                    {"name": "Venäläinen kierto", "times": 2}
+                    {"name": "Vipunosto eteen taljassa", "times": 2},
+                    {"name": "Naamaveto", "times": 2},
+                    {"name": "Ojentajat taljalla", "times": 6},
+                    {"name": "Penkki käsipainoilla", "times": 2},
+                    {"name": "Ranskalainen punnerrus käsipainolla seisten", "times": 2},
+                    
+                    {"name": "Vatsarutistus", "times": 3},
+                    {"name": "Vatsa/kylki kurkota pakaroita", "times": 3},
+                    {"name": "Staattinen vatsa makuulta", "times": 3}
                 ]
             },
             {
                 "moves": [
-                    {"name": "Häkkikyykky", "times": 3},
-                    {"name": "Lähentäjät", "times": 2},
-                    {"name": "Loitontajat", "times": 2},
+                    {"name": "Jalkaprässi", "times": 6},
+                    {"name": "Häkkikyykky", "times": 2},
+                    {"name": "Kyykky", "times": 2},
+                    {"name": "Pohkeet", "times": 6},
 
-                    {"name": "Ranskalainen punnerrus", "times": 2},
-                    {"name": "Dippi", "times": 3},
-                    {"name": "Vasara/hammeri", "times": 3},
+                    {"name": "Vatsaprässi", "times": 6},
+                    {"name": "Venäläinen kierto", "times": 2},
+                    {"name": "Jalka ylös vatsat maaten", "times": 3}
+                ]
+            },
+            {
+                "moves": [
+                    {"name": "Pec deck", "times": 6},
+                    {"name": "Vinopenkki käsipainoilla", "times": 6},
+                    {"name": "Dippi", "times": 2},
 
-                    {"name": "Ojentaja käsipainolla seisten per käsi (pienellä nojalla)", "times": 2},
-                    {"name": "Selät", "times": 3},
+                    {"name": "Hauikset taljalla", "times": 6},
+                    {"name": "Hauikset käsipainoilla", "times": 2},
+                    {"name": "Hauikset tangolla", "times": 2},
                     {"name": "Ranneliike", "times": 2},
 
-                    {"name": "Selällään polkeminen", "times": 3},
-                    {"name": "Vuorikiipeilijä", "times": 3}                    
+                    {"name": "Vatsarutistus", "times": 3},
+                    {"name": "Vatsa/kylki kurkota pakaroita", "times": 3},
+                    {"name": "Staattinen vatsa makuulta", "times": 3}
+                ]
+            },
+            {
+                "moves": [
+                    {"name": "Yliveto taljassa seisten", "times": 6},
+                    {"name": "Alatalja", "times": 6},
+                    {"name": "Ylätalja eteen", "times": 2},
+                    
+                    {"name": "Maastaveto", "times": 6},
+                    {"name": "Takareidet", "times": 2},
+                    {"name": "Loitontajat", "times": 2},
+                    {"name": "Selät", "times": 2}
                 ]
             }
         ]
@@ -107,26 +127,63 @@
     {
         "periodStart": "30.11.2020",
         "periodEnd": "30.4.2022",
-        "program": [            {   
-            "moves": [
-                {"name": "Kyykky", "times": 4},
-                {"name": "Pohkeet", "times": 4},
-                {"name": "Maastaveto", "times": 4},
+        "program": [ 
+            {   
+                "moves": [
+                    {"name": "Pystypunnerus käsipainoilla istuen", "times": 5},
+                    {"name": "Vipunosto eteen taljassa", "times": 3},
+                    {"name": "Naamaveto", "times": 3},
 
-                {"name": "Ojentajat taljalla", "times": 4},
-                {"name": "Hauikset taljalla", "times": 4},
-                {"name": "Hauikset taljalla vastaotteella", "times": 1},
-                {"name": "Naamaveto (face pull)", "times": 2},
-                {"name": "Ylätalja eteen", "times": 2},
+                    {"name": "Ojentajat taljalla", "times": 5},
+                    {"name": "Rintaprässi neutraaliotteella", "times": 3},
+                    {"name": "Ranskalainen punnerrus", "times": 3}
+                ]
+            }, 
+            {   
+                "moves": [
+                    {"name": "Kyykky", "times": 5},
+                    {"name": "Jalkaprässi", "times": 3},
+                    {"name": "Häkkikyykky", "times": 3},
 
-                {"name": "Vipunosto käsipainoilla sivulle", "times": 2},
-                {"name": "Vipunosto käsipainoilla etee", "times": 2},
+                    {"name": "Lankku", "times": 3},
+                    {"name": "Pohkeet", "times": 5},
+                    {"name": "Smith-pohjeliike istuen", "times": 3}
+                ]
+            }, 
+            {   
+                "moves": [
+                    {"name": "Vinopenkki käsipainoilla", "times": 5},
+                    {"name": "Rintaprässi myötäotteella", "times": 3},
+                    {"name": "Pec deck", "times": 3},
 
-                {"name": "Vatsarutistus", "times": 4},
-                {"name": "Vatsa/kylki kurkota pakaroita", "times": 4},
-                {"name": "Staattinen vatsa makuulta", "times": 4}
+                    {"name": "Hauikset taljalla", "times": 5},
+                    {"name": "Hauikset käsipainoilla", "times": 3},
+                    {"name": "Ranneliike", "times": 3}
+                ]
+            }, 
+            {   
+                "moves": [
+                    {"name": "Alatalja", "times": 5},
+                    {"name": "Ylätalja eteen", "times": 3},
+                    {"name": "Yliveto makuulta", "times": 3},
 
-            ]
-        }]
+                    {"name": "Vatsaprässi", "times": 5},
+                    {"name": "Jalka ylös vatsat maaten", "times": 3},
+                    {"name": "Venäläinen kierto", "times": 3}
+                ]
+            }, 
+            {   
+                "moves": [
+                    {"name": "Maastaveto", "times": 5},
+                    {"name": "Takareidet", "times": 3},
+                    {"name": "Selät", "times": 3},
+
+                    {"name": "Smith-sumokyykky", "times": 5},
+                    {"name": "Lonkan loitonnus laitteessa seisten", "times": 2},
+                    {"name": "Vatsarutistus", "times": 3},
+                    {"name": "Jalka ylös vatsat maaten", "times": 3}
+                ]
+            }
+        ]
     }
 ]
