@@ -23,6 +23,9 @@
 			<li aria-current={$page.url.pathname === '/programs' ? 'page' : undefined}>
 				<a href="{base}/programs">Vanhat</a>
 			</li>
+			<li aria-current={$page.url.pathname === '/random' ? 'page' : undefined}>
+				<a href="{base}/random">Satunnainen</a>
+			</li>
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 				<a href="{base}/about">Muuta</a>
 			</li>
