@@ -62,28 +62,38 @@
 		}
 	}
 
-	.hand {
-		display: inline-block;
+	@media only screen and (max-width: 768px) {
+		.hand,
+		.dumbbell {
+			display: none;
+		}
 	}
 
-	.hand--right {
-		display: inline-block;
-		transform: scale(-1, 1);
-		animation: 3s infinite alternate pump;		
+	@media only screen and (min-width: 768px) {
+		.hand {
+			display: inline-block;
+		}
+
+		.hand--right {
+			display: inline-block;
+			transform: scale(-1, 1);
+			animation: 3s infinite alternate pump;		
+		}
+
+		.hand--left {
+			transform: none;
+			animation: 3s infinite alternate pump--left;		
+		}
+
+		.dumbbell {
+			position: absolute;
+			animation: 3s infinite alternate raise;	
+			display: inline-block;
+		}
+
+		.dumbbell--left {
+			left: -38px;
+		}
 	}
 
-	.hand--left {
-		transform: none;
-		animation: 3s infinite alternate pump--left;		
-	}
-
-	.dumbbell {
-		position: absolute;
-		animation: 3s infinite alternate raise;	
-		display: inline-block;
-	}
-
-	.dumbbell--left {
-		left: -38px;
-	}
 </style>
