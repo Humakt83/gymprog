@@ -140,4 +140,11 @@
 	a:hover {
 		color: var(--color-theme-1);
 	}
+
+	@media only screen and (max-width: 768px) {
+		nav a {
+			font-size: 10px;
+			letter-spacing: 0.05em;
+		}
+	}
 </style>

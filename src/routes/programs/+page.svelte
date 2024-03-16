@@ -1,11 +1,12 @@
-<script>
+<script lang="ts">
 	import gymprogs from '$lib/resources/gymprogs.json';
-    import Program from '../Program.svelte';
+	import type { ProgramPeriod } from '../../types';
+    import ProgramList from '../ProgramList.svelte';
 
 	const programs = gymprogs.filter(prog => !prog.current);
-    let selectedProgram = programs[0];
+    let selectedProgram: ProgramPeriod = programs[0];
 
-    const setSelectedProgram = (program) => {
+    const setSelectedProgram = (program: ProgramPeriod) => {
         selectedProgram = program;
     }
 </script>
@@ -31,7 +32,7 @@
         {/each}
 	</div>
 
-    <Program program={selectedProgram?.program}></Program>
+    <ProgramList program={selectedProgram?.program}></ProgramList>
 
 </section>
 

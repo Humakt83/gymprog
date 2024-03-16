@@ -1,8 +1,9 @@
-<script>
+<script lang="ts">
 	import gymprogs from '$lib/resources/gymprogs.json';
-	import Program from './Program.svelte';
+	import ProgramList from './ProgramList.svelte';
+	import type { ProgramPeriod } from '../types';
 
-	const currentGymProg = gymprogs.find(prog => prog.current);
+	const currentGymProg: ProgramPeriod | undefined = gymprogs.find(prog => prog.current);
 </script>
 
 <svelte:head>
@@ -19,7 +20,9 @@
 
 	<p>Alkaen -> {currentGymProg?.periodStart}</p>
 
-	<Program program={currentGymProg?.program}></Program>
+	{#if currentGymProg}
+		<ProgramList program={currentGymProg.program}></ProgramList>
+	{/if}
 
 </section>
 

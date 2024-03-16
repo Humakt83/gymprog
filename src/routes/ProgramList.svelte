@@ -1,5 +1,7 @@
 <script lang="ts">
-    export let program : [{moves: [{name: String, times: number}]}];
+    import type { ProgramDay } from '../types';
+
+    export let program : ProgramDay[];
 </script>
 
 <div>

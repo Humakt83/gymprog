@@ -31,8 +31,9 @@
 
                     {"name": "Pec deck", "times": 3},
 
-                    {"name": "Vinopenkki käsipainoilla", "times": 3},                   
+                    {"name": "Vinopenkki käsipainoilla", "times": 3},
                     {"name": "Ylätalja eteen", "times": 2},
+                    {"name": "Alatalja eteen", "times": 2},
                     {"name": "Hauikset käsipainoilla", "times": 3},
 
                     {"name": "Pystysoutu", "times": 2},
