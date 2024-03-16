@@ -1,17 +1,17 @@
-<script>
-// @ts-nocheck
+<script lang="ts">
 
 	import gymprogs from '$lib/resources/gymprogs.json';
-    import Program from '../Program.svelte';
+    import ProgramList from '../ProgramList.svelte';
+    import type { ProgramDay } from '../../types';
 
 	const moves = gymprogs.flatMap(program => program.program)
         .flatMap(program => program.moves).map(move => move.name);
 
-    const generateProgram = (intensityModifier, moveVariety) => {
-        const selectedMoves = [];
+    const generateProgram = (intensityModifier: number, moveVariety: number): ProgramDay[] => {
+        const selectedMoves: string[] = [];
 
         while (selectedMoves.length < moveVariety) {
-            const moveToAdd = moves[Math.floor(Math.random() * moves.length)];
+            const moveToAdd: string = moves[Math.floor(Math.random() * moves.length)];
             if (!selectedMoves.includes(moveToAdd)) {
                 selectedMoves.push(moveToAdd);
             }
@@ -80,7 +80,7 @@
 
     <h2>Satunnainen ohjelma</h2>
 
-    <Program program={generatedProgram}></Program>
+    <ProgramList program={generatedProgram}></ProgramList>
 
 </section>
 
