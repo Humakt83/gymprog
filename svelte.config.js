@@ -10,7 +10,8 @@ const config = {
 	kit: {		
 		adapter: adapter(),
 		paths: {
-			base: '/gymprog'
+			base: '/gymprog',
+			relative: false
 		}
 	},
 };
